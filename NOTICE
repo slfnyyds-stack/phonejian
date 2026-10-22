@@ -1,0 +1,25 @@
+AIHOT
+Copyright (c) 2026 数字生命卡兹克. The code is licensed under the MIT License (LICENSE).
+
+The name "AIHOT" and the AIHOT logo are not licensed under the MIT License. Please use your own name
+and logo for your site.
+
+This repository also contains third-party material under its own terms:
+
+- assets/og-fonts/: Noto Sans SC, SIL Open Font License 1.1 (assets/og-fonts/LICENSE).
+- assets/model-providers/: model and provider marks, mostly from Lobe Icons (MIT). The marks remain
+  trademarks of their respective owners and are used only to identify them (assets/model-providers/NOTICE.md).
+- assets/leaderboard-sources/: the published marks of each evaluation operator, used only to identify
+  them (assets/leaderboard-sources/NOTICE.md).
+
+The demo sources in industry/sources.json are public feeds of their publishers. Their content belongs
+to them; by default the site shows only a summary and a link to the original.
+
+手机之间 / phonejian is an independently maintained derivative of AIHOT.
+Derivative maintainer: slfnyyds-stack (https://github.com/slfnyyds-stack/phonejian).
+Upstream: https://github.com/KKKKhazix/AIHOT
+Upstream baseline: 8d5a39bb47c917616798a3fdd71688a80f6c9b6c
+The upstream copyright notice and MIT License are preserved.
+The MIT License covers software, not third-party news, fonts, or trademarks.
+The phonejian brand lockup uses Source Han Sans CN under SIL OFL 1.1;
+see apps/web/public/brand/LICENSE-SourceHanSans.txt.

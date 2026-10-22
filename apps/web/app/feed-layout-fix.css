@@ -1,0 +1,7 @@
+@media (max-width:1023px){
+.phone-reference-site .feed-filter-row{display:flex;flex-direction:column;align-items:stretch;gap:14px;}
+.phone-reference-site .feed-filter-row>form{order:-1;width:100%;max-width:420px;}
+.phone-reference-site .feed-category-tabs{overflow:visible;max-width:100%;}
+.phone-reference-site .feed-category-tabs [data-pill-track]{display:flex;flex-wrap:wrap;width:100%;gap:4px;border-radius:12px;}
+.phone-reference-site .feed-category-tabs [data-pill-track]>a{padding-left:12px;padding-right:12px;}
+}

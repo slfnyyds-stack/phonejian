@@ -1,0 +1,251 @@
+{
+  "$comment": "手机行业信源：T1 一手信源逐一验证后接入；正式采集调度与站点模型评分默认关闭。",
+  "sources": [
+    {
+      "id": "rss-apple-newsroom-cn",
+      "name": "Apple Newsroom（中国大陆）",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.apple.com.cn/newsroom/rss-feed.rss",
+        "_aihot": { "initialBackfillLimit": 3 }
+      },
+      "tier": "T1",
+      "first_party": true,
+      "owner_entity_id": "apple",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": ["官方"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-ithome",
+      "name": "IT之家",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.ithome.com/rss",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": ["媒体", "手机数码"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-sspai",
+      "name": "少数派",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://sspai.com/feed",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": ["媒体", "手机数码"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-ifanr",
+      "name": "爱范儿",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.ifanr.com/feed",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": ["媒体", "手机数码"],
+      "site_fulltext": true,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-geekpark",
+      "name": "极客公园",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.geekpark.net/rss",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": ["媒体", "手机数码"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-mi-ir",
+      "name": "小米投资者关系",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://ir.mi.com/rss.xml",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T1",
+      "first_party": true,
+      "owner_entity_id": "xiaomi",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": ["官方", "公司/财务"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-leikeji",
+      "name": "雷科技",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.leikeji.com/rss",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": ["媒体", "手机数码"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-gsmarena",
+      "name": "GSMArena",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.gsmarena.com/rss-news-reviews.php3",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": ["国际", "手机"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-9to5mac",
+      "name": "9to5Mac",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://9to5mac.com/feed/",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": ["国际", "手机"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-macrumors",
+      "name": "MacRumors",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://feeds.macrumors.com/macrumors_all",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": ["国际", "手机"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-androidauthority",
+      "name": "Android Authority",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.androidauthority.com/feed/",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": ["国际", "手机"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-androidcentral",
+      "name": "Android Central",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.androidcentral.com/feed",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": ["国际", "手机"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-theverge",
+      "name": "The Verge",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.theverge.com/rss/index.xml",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": ["国际", "手机"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+    ,
+    {
+      "id": "rss-samsung-newsroom-global",
+      "name": "Samsung Newsroom（全球）",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://news.samsung.com/global/feed",
+        "_aihot": { "initialBackfillLimit": 5 }
+      },
+      "tier": "T1",
+      "first_party": true,
+      "owner_entity_id": "samsung",
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": ["官方", "国际", "手机"],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+  ]
+}

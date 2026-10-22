@@ -1,0 +1,327 @@
+{
+  "exportedAt": "2026-10-01",
+  "groups": [
+    {
+      "key": "company",
+      "name": "品牌与厂商",
+      "blurb": "按品牌与厂商浏览：官方产品线、系统更新与售后政策的公开信息"
+    },
+    {
+      "key": "field",
+      "name": "产品与体验",
+      "blurb": "按产品方向浏览：折叠屏、影像、续航与 AI 功能的公开体验与使用条件"
+    },
+    {
+      "key": "genre",
+      "name": "零售与服务",
+      "blurb": "按内容类型浏览：新品动态、机型对比、价格渠道、售后回收与一线观察"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "group": "company",
+      "entityId": "apple",
+      "tags": [
+        "Apple",
+        "entity:apple"
+      ],
+      "definition": "Apple 官方公开的产品与系统信息：iPhone 产品线、iOS 系统更新、官方保修与售后政策、官方渠道价格政策的追踪。",
+      "related": [
+        "phone-launch",
+        "mobile-ai",
+        "service"
+      ]
+    },
+    {
+      "slug": "huawei",
+      "name": "华为",
+      "group": "company",
+      "entityId": "huawei",
+      "tags": [
+        "华为",
+        "entity:huawei"
+      ],
+      "definition": "华为官方公开的产品与系统信息：Mate、Pura、nova 等产品线，HarmonyOS 系统更新，官方保修与售后政策的追踪。",
+      "related": [
+        "foldables",
+        "phone-launch",
+        "service"
+      ]
+    },
+    {
+      "slug": "honor",
+      "name": "荣耀",
+      "group": "company",
+      "entityId": "honor",
+      "tags": [
+        "荣耀",
+        "entity:honor"
+      ],
+      "definition": "荣耀官方公开的产品与系统信息：Magic 等产品线、MagicOS 系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "foldables",
+        "phone-launch",
+        "comparison"
+      ]
+    },
+    {
+      "slug": "oppo",
+      "name": "OPPO",
+      "group": "company",
+      "entityId": "oppo",
+      "tags": [
+        "OPPO",
+        "entity:oppo"
+      ],
+      "definition": "OPPO 官方公开的产品与系统信息：Find、Reno 等产品线、ColorOS 系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "camera",
+        "phone-launch",
+        "service"
+      ]
+    },
+    {
+      "slug": "vivo",
+      "name": "vivo",
+      "group": "company",
+      "entityId": "vivo",
+      "tags": [
+        "vivo",
+        "entity:vivo"
+      ],
+      "definition": "vivo 官方公开的产品与系统信息：X、S 等产品线、OriginOS 系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "camera",
+        "phone-launch",
+        "service"
+      ]
+    },
+    {
+      "slug": "xiaomi",
+      "name": "小米",
+      "group": "company",
+      "entityId": "xiaomi",
+      "tags": [
+        "小米",
+        "entity:xiaomi"
+      ],
+      "definition": "小米官方公开的产品与系统信息：小米与 Redmi 产品线、HyperOS 系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "phone-launch",
+        "price-channel",
+        "service"
+      ]
+    },
+    {
+      "slug": "samsung",
+      "name": "Samsung",
+      "group": "company",
+      "entityId": "samsung",
+      "tags": [
+        "Samsung",
+        "entity:samsung"
+      ],
+      "definition": "三星官方公开的产品与系统信息：Galaxy S、Galaxy Z 等产品线、One UI 系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "foldables",
+        "phone-launch",
+        "comparison"
+      ]
+    },
+    {
+      "slug": "iqoo",
+      "name": "iQOO",
+      "group": "company",
+      "entityId": "iqoo",
+      "tags": [
+        "iQOO",
+        "entity:iqoo"
+      ],
+      "definition": "iQOO 官方公开的产品与系统信息：iQOO 数字系列与 Neo 系列等产品线、系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "battery",
+        "phone-launch",
+        "comparison"
+      ]
+    },
+    {
+      "slug": "oneplus",
+      "name": "OnePlus",
+      "group": "company",
+      "entityId": "oneplus",
+      "tags": [
+        "OnePlus",
+        "entity:oneplus"
+      ],
+      "definition": "一加官方公开的产品与系统信息：一加数字系列与 Ace 系列等产品线、系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "battery",
+        "phone-launch",
+        "comparison"
+      ]
+    },
+    {
+      "slug": "realme",
+      "name": "realme",
+      "group": "company",
+      "entityId": "realme",
+      "tags": [
+        "realme",
+        "entity:realme"
+      ],
+      "definition": "realme 真我官方公开的产品与系统信息：真我 GT 与数字系列等产品线、系统更新、官方保修与售后政策的追踪。",
+      "related": [
+        "battery",
+        "price-channel",
+        "phone-launch"
+      ]
+    },
+    {
+      "slug": "foldables",
+      "name": "折叠屏",
+      "group": "field",
+      "tags": [
+        "折叠屏"
+      ],
+      "definition": "折叠屏手机的公开体验信息：铰链与折痕表现、展开形态下的适配情况，以及防水防尘、售后维修等使用条件的说明。",
+      "related": [
+        "comparison",
+        "huawei",
+        "samsung"
+      ]
+    },
+    {
+      "slug": "camera",
+      "name": "手机影像",
+      "group": "field",
+      "tags": [
+        "影像"
+      ],
+      "definition": "手机影像能力的公开体验信息：传感器与镜头规格、成片风格差异、长焦与夜景等场景表现，功能可用性以厂商说明与实测为准。",
+      "related": [
+        "comparison",
+        "oppo",
+        "vivo"
+      ]
+    },
+    {
+      "slug": "battery",
+      "name": "续航体验",
+      "group": "field",
+      "tags": [
+        "续航"
+      ],
+      "definition": "手机续航与充电的公开体验信息：电池容量与快充规格、不同用况下的耗电表现、充电器与线缆的适配条件，随系统版本可能变化。",
+      "related": [
+        "comparison",
+        "iqoo",
+        "oneplus"
+      ]
+    },
+    {
+      "slug": "mobile-ai",
+      "name": "手机AI功能",
+      "group": "field",
+      "tags": [
+        "AI功能"
+      ],
+      "definition": "手机 AI 功能的公开体验信息：各品牌官方助手与图像、通话等 AI 能力的实际表现，以及机型、系统版本、地区与账号条件下的可用性差异。",
+      "related": [
+        "apple",
+        "comparison",
+        "phone-launch"
+      ]
+    },
+    {
+      "slug": "phone-launch",
+      "name": "新品动态",
+      "group": "genre",
+      "tags": [
+        "新品发布",
+        "系统更新"
+      ],
+      "definition": "新品与系统方面的公开动态：各品牌官方发布的上市信息、核心规格与系统更新记录，以官方渠道口径为准。",
+      "related": [
+        "comparison",
+        "price-channel"
+      ]
+    },
+    {
+      "slug": "comparison",
+      "name": "机型对比",
+      "group": "genre",
+      "tags": [
+        "评测对比"
+      ],
+      "definition": "同价位或同系列机型的对比内容：可核对的实测体验与规格差异，营销榜单与广告口径不作为事实引用。",
+      "related": [
+        "phone-launch",
+        "camera",
+        "battery"
+      ]
+    },
+    {
+      "slug": "price-channel",
+      "name": "价格与渠道",
+      "group": "genre",
+      "tags": [
+        "价格政策",
+        "渠道信息",
+        "补贴"
+      ],
+      "definition": "价格与渠道方面的公开信息：官方调价、运营商与平台补贴政策、零售渠道规则；非公开渠道报价不予发布。",
+      "related": [
+        "phone-launch",
+        "industry"
+      ]
+    },
+    {
+      "slug": "service",
+      "name": "售后与回收",
+      "group": "genre",
+      "tags": [
+        "售后服务",
+        "回收换新",
+        "以旧换新"
+      ],
+      "definition": "售后与回收换新的公开信息：官方保修与维修政策、回收与以旧换新规则、常见风险提醒，均标注适用的地区与机型范围。",
+      "related": [
+        "price-channel",
+        "industry"
+      ]
+    },
+    {
+      "slug": "industry",
+      "name": "行业动态",
+      "group": "genre",
+      "tags": [
+        "行业动态",
+        "技术研究"
+      ],
+      "definition": "手机行业的公开动态：市场与经营变化、监管消息、供应链与技术方向的进展，注明消息来源。",
+      "related": [
+        "price-channel",
+        "service",
+        "phone-launch"
+      ]
+    },
+    {
+      "slug": "observation",
+      "name": "一线观察",
+      "group": "genre",
+      "tags": [
+        "零售实践",
+        "观点分析",
+        "门店经营"
+      ],
+      "definition": "零售一线的实践与观点：可溯源的销售经验、顾客需求与门店经营讨论；观点内容明确标注来源，不冒充新闻事实。",
+      "related": [
+        "industry",
+        "price-channel",
+        "service"
+      ]
+    }
+  ]
+}
